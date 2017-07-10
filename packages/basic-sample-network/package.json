@@ -4,7 +4,7 @@
   },
   "name": "basic-sample-network",
   "version": "0.1.1",
-  "description": "The Hello World of Hyperledger Composer samples",
+  "description": "Robert Wood Blockchain Demo",
   "scripts": {
     "prepublish": "mkdirp ./dist && composer archive create --sourceType dir --sourceName . -a ./dist/basic-sample-network.bna",
     "pretest": "npm run lint",
